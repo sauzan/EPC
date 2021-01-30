@@ -1,0 +1,98 @@
+
+* {box-sizing: border-box;}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+input[type=text], button[type = submit]{
+  padding: 10px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 10px;
+   position: relative;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+td a{
+  text-decoration: none;
+  color: #252526;
+  font-size: 17px;
+}
+td a:hover{
+  color: #52809e;
+  font-size: 18px;
+  position: relative;
+}
+.chart{
+  width: 50%;
+  margin: 20px;
+  padding-bottom: 5px;
+}
+
+.current{
+  width: 10%;
+  font-size: 25px;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 2px 2px 8px #2b2929;
+}
+
+.current p{
+font-size: 12px;
+}
+
+.certificate{
+  position: relative;
+}
+
+.cert_title,.contain{
+  display: table;
+  width: 100%;
+}
+.section{
+  background-color: #dddddd;
+}
+
+.section h3{
+  background-color: #555454;
+  padding: 10px;
+  color: #ffffff;
+}
+
+.field{
+  display: table-row;
+  padding: 10px;
+  margin-left: 10px;
+  font-size: 17px;
+}
+
+.field:nth-child(odd){
+background-color: #ffffff;
+}
+.field .attribute{
+  display: table-cell;
+  width: 50%;
+  padding: 10px;
+}
+
