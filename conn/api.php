@@ -2,7 +2,7 @@
 
     $headers = array(
         'Accept:application/json',
-        'Authorization: Basic cnNhdXphbkBnbWFpbC5jb206OThjZDNmZmYxZTI4YmM4ODA0NjQxNmIxZjNiODMxNDk0OTc0MjRjNg=='
+        'Authorization: Basic /* your API key */'
      );
 
     $ch = curl_init();
